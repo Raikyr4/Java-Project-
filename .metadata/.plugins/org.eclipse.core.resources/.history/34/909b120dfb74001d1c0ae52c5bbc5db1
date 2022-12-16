@@ -1,0 +1,31 @@
+package Cursooo;
+
+public class TiposDeVariaveis {
+	public static void main(String[] args) {
+		
+		   // inteiros
+			int x = 123456;
+			long grande = 12_345_678L; //usa o L no final pra informar que eh long 
+			short pequeno = 123;
+			byte Bin = 10;
+			
+	       // decimais
+			double Y = 3.4;
+			float d = 4.5F; //usa o F no final para informar que eh float
+			
+		  //caracter
+			String nome = "Raiky";
+			char M = ' ';
+		  
+			// constante == final
+			final float pi = 3.14F;
+			
+			
+			var qualquer = 7;
+			
+			boolean verdade = true ;
+			
+					System.out.printf("%d %d %d %d %n %f %f %n %s %s %n %f %d",x,pequeno,grande,Bin,Y,d,nome,M,pi,qualquer);
+					System.out.println(verdade);
+	}
+}

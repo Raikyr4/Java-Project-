@@ -1,0 +1,11 @@
+package Arrays_ED_Colections;
+
+public class EqualsXHashcode {
+
+	public static void main(String[] args) {
+	      String X="0.9";
+	      X.equals(X);//metodo mais lento 
+	      X.hashCode();// separa os elementos q n sao iguais e os podem ser iguais 
+	      
+	}
+}

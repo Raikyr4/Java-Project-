@@ -1,0 +1,20 @@
+package Cursooo;
+
+public class Wrappers {
+		public static void main(String[] args) {
+			
+			Byte b = 100;
+			Short s =1000;
+			Integer i = 10000;
+			Long l = 100000L;
+			
+			 // podemos convertar dados usando os wrappers
+			l.intValue();
+			
+			System.out.println(b.byteValue());
+			System.out.println(s.toString() + " ola mundo isso eh uma string ");
+			System.out.println(i.floatValue()/7);
+			System.out.println(l);
+			
+		}
+}

@@ -1,0 +1,20 @@
+package fundamentos;
+
+public class TipoString {
+		public static void main(String[] args) {
+			System.out.println("Ola pessoal".charAt(4));
+			String S = "Nova noticia";
+			System.out.println(S.concat("!!!"));
+			System.out.println(S.startsWith("Nova"));
+			System.out.println(S.toLowerCase());
+			System.out.println(S.toUpperCase());
+			System.out.println(S.length());
+			System.out.println(S.equals(S));
+			System.out.println(S.replace("i", "y"));// troca todo 'i' por 'y' na string passada
+			
+			// o tipo String possui muitos metodos basta pesquisar dps
+			// igual toda classe seus objetos possuem metodos especificos
+			/*em Java tudo está centrado em POO logo alem dos tipos primitivos tambem existem os Wrappers que sao basicamente
+			  os tipos primitivos encapsulados por uma classe q logicamente possui diversos metodos */
+		}
+}

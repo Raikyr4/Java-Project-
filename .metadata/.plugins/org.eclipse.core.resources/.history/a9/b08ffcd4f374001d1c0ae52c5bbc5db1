@@ -1,0 +1,14 @@
+package Cursooo;
+
+import javax.swing.JOptionPane; // class visual "telinha"
+
+public class StringTOnumero {
+		public static void main(String[] args) {
+			
+			String valor1 = JOptionPane.showInputDialog
+					("Digita ai");
+		    String valor2 = JOptionPane.showInputDialog
+							("Digita ai");
+		    System.out.println(valor1+valor2);
+		}
+}
